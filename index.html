@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Project</title>
+</head>
+
+<body>
+  <header class="bg-dark text-white border-bottom border-black">
+    <nav class="d-flex flex-column align-items-center py-4">
+      <div class="logo">
+        <h1 class="h2 text-uppercase">Notey</h1>
+      </div>
+      <div class="color-selector d-flex gap-3">
+        <button id="primary" class="btn btn-primary btn-circle"></button>
+        <button id="danger" class="btn btn-danger btn-circle"></button>
+        <button id="warning" class="btn btn-warning btn-circle"></button>
+        <button id="success" class="btn btn-success btn-circle"></button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="min-vh-100 bg-dark py-4">
+      <div class="container">
+        <div class="note-operations py-2 d-flex flex-wrap flex-sm-nowrap gap-2">
+          <button class="btn btn-primary flex-grow-1 flex-sm-grow-0"><i class="fa-regular fa-plus"></i></button>
+          <button class="btn btn-success flex-grow-1 flex-sm-grow-0"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="btn btn-danger flex-grow-0 flex-sm-grow-0"><i class="fa-solid fa-trash"></i></button>
+          <input type="text" class="form-control">
+        </div>
+        <div class="row g-2">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="note rounded-2">
+                <textarea class="w-100 h-100 p-3 rounded-2 bg-primary-subtle"></textarea>
+                <!-- <button type="button" id="add-note" class="btn btn-success">Done</button> -->
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="note rounded-2 bg-danger-subtle p-2">
+              <div class="note-options d-flex justify-content-between align-items-center">
+                <div class="note-date text-danger">
+                  <span>7/6/2024</span>
+                </div>
+                <div class="note-actions bg-danger rounded-4">
+                  <div class="btn btn-danger">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                  <div class="btn btn-danger">
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                  <div class="btn btn-danger">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="note rounded-2 bg-danger-subtle p-2">
+              <div class="note-options d-flex justify-content-between align-items-center">
+                <div class="note-date text-danger">
+                  <span>7/6/2024</span>
+                </div>
+                <div class="note-actions bg-danger rounded-4">
+                  <div class="btn btn-danger">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="note rounded-2 bg-warning-subtle p-2">
+              <div class="note-options d-flex justify-content-between align-items-center">
+                <div class="note-date text-warning">
+                  <span>7/6/2024</span>
+                </div>
+                <div class="note-actions bg-warning rounded-4">
+                  <div class="btn btn-warning">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae, quos a nam est itaque! Cumque dolorum cum voluptatum ducimus magnam natus? Velit ratione inventore sequi. Debitis alias velit explicabo? Consequuntur, incidunt ex aperiam repellendus, quibusdam sunt accusamus ullam nam fugiat modi dicta, sed dolorum nulla libero sapiente molestias quasi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+h1:after {
+    content: '.';
+    color: tomato;
+}
+
+.btn-circle {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50% !important;
+}
+
+.note {
+    height: 20rem;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+}
